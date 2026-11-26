@@ -1,0 +1,36 @@
+.contactus-card {
+	width: 100%;
+	max-width: 400px;
+	margin: 40px auto;
+	background-color: #000000 !important;
+	border: 1px solid #d3d3d3 !important;
+	border-radius: 10px;
+	padding: 22px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.contactus-card: hover {
+	transform: translateY(-3px);
+	box shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+}
+					
+.contactus-badge {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	color: #B8860B;
+	background-color: #ffffff;
+	padding: 4px 12px;
+	border-radius: 12px;
+	text-transform: uppecase;
+	margin-bottom: 16px;
+}
+
+.contactus-title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #b8860b;
+	margin-bottom: 16px;
+}

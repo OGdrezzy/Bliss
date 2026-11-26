@@ -1,0 +1,36 @@
+/* Social Container Styling */
+.social-icons {
+   list-style:none;
+   padding:0;
+   margin:0;
+   display:flex;
+   gap:20px;
+   justify-content:center; 
+}
+
+/* Individual icon styling */
+.social-icon{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    transition:background-color 0."3.2s ease-in-;
+    text-align:center;
+    background-color:#f8f9fa;
+    border: 1px solid #dee2:**;
+}
+
+.facebook{
+    color:#187187;
+}
+.twitter{
+    color:#1DAFB7;   
+}
+.instagram{
+    color:#E13030;
+}
+
+.social-icon:hover{
+    background-color:#e9ecef;
+    transform:scale(1.1);
+}

@@ -1,0 +1,102 @@
+{
+    box-sizing: border-box;
+}
+
+.testimonial-carousel {
+    position: relative;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.testimonial-carousel input[type="radio"] {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 33.333%;
+    padding: 0 20px;
+}
+
+.quote-icon {
+    font-size: 60px;
+    line-height: 1;
+    color: #d1d5db;
+    margin-bottom: -10px;
+}
+
+.quote-text {
+    font-size: 1.1rem;
+    color: #374151;
+    line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.client-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+.client-role {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+#slide-1:checked ~ .slides {
+    transform: translateX(O%);
+}
+
+#slide-2:checked ~ .slides {
+    transform: translateX(-33.333%);
+}
+
+#slide-3:checked ~ .slides {
+    transform: translateX(-66.666%);
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #e5e7eb;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dot:hover {
+    background-color: #9ca3af;
+}
+
+#slide-1:checked ~ .carousel-dots .dot:nth-child(1),
+#slide-2:checked ~ .carousel-dots .dot:nth-child(2),
+#slide-3:checked ~ .carousel-dots .dot:nth-child(3) {
+    background-color: #3b82f6;
+    transform: scale(1.2);
+}
+
+
+
+
+

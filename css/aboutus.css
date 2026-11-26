@@ -1,0 +1,66 @@
+.about-card {
+	width: 100%;
+	max-width: 650px;
+	margin: 40px auto;
+	background-color: #ffffff !important;
+	border: 1px solid #e2e8f0 !important;
+	border-radius: 12px;
+	padding: 32px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.about-card: hover {
+	transform: translateY(-3px);
+	box shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+}
+					
+.about-badge {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	color: #000000;
+	background-color: #eff6ff;
+	padding: 6px 14px;
+	border-radius: 20px;
+	text-transform: uppecase;
+	margin-bottom: 16px;
+}
+
+.about-title {
+	font-size: 24px;
+	font-weight: 700;
+	color: #0f172a;
+	margin-bottom: 16px;
+}
+
+.about-description {
+	font-size: 15px;
+	color: #334155;
+	line-height: 1.6;
+	margin-bottom: 16px;
+}
+
+.about-stats {
+	display: flex;
+	gap: 20px;
+	border-top: 1px solid #f1f5f9;
+	padding-top: 20px;
+	margin-bottom: 24px;
+}
+
+.stat-item {
+	flex: 1;
+}
+
+.stat-number {
+	font-size: 18px;
+	font-weight: 700;
+	color: #0f172a;
+}
+
+.stat-label {
+	font-size: 12px;
+	color: #64748b;
+}
